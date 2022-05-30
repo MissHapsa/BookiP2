@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* navbar */
+
+
+@media (max-width: 768px) {
+
+    #logo {
+       margin: auto;
+        }
+
+    .sub-nav {
+    flex-basis: 100%;
+}
+    .sub-nav a {
+        display: inline-block;
+        border-bottom: solid 2px #dcdcdc;
+        width: 100%;
+        text-align: center;
+        padding: 0 0 10% 0;
+}
+
+.sub-nav a:hover {
+   border-top: none;
+   border-bottom: 3px solid #0065FC;
+   transform: none;
+}
+
+
+/* SEARCH */
+
+@media (max-width: 768px) {
+    .text { 
+    display:none;
+}
+
+    .fas.fa-search {
+        display: inline;
+        color: inherit;
+        background-color: #0065FC;
+        border-radius: 0 1rem 1rem 0;
+    }
+  /* FILTERS */
+
+/* LISTE HEBERGEMENTS */
+@media (max-width: 768px) 
+{
+    .listes {
+    flex-direction: column; }
+    .cartes {
+    flex-direction: column;}
+    .populaires {
+    order: -1;
+    flex-direction: column;}
+}
+
+@media (max-width: 768px) 
+{
+    .populaires {
+    background-color: #F2F2F2;
+	border-radius: 20px;
+    width: 100%; 
+    height: 600px;
+    }
+
+    .resultat2,.resultat1,.resultat3 {
+    width: 90%;
+    margin-left: -8%;}
+    .chart {
+    margin-left: 35%;
+    margin-top: 5.5%;}
+    .marseille {
+        background-color: white;
+        border-radius: 20px;
+        width: 100%; 
+        height: 1400px;
+        margin-right: 40px;}
+    .resultat {   
+        width: 95% ;   
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 2px 2px #c0c0c0;
+        line-height: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;}
+    }
+
+/* activites */
+@media (max-width: 768px) 
+{
+    .sorties H4{
+    margin-top: 55px;}
+    .h4 {
+    font-size: large;}
+    .activites  {
+    flex-direction: column;
+    width: 95% ;   
+    height: 1100px;
+    margin-right: 40px;}
+    .activites img {
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0 0;}
+}
+
+/* footer  */
+@media (max-width: 768px) {
+    .cadre {
+        flex-direction: column;}
+}
